@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise -intstyle ise -ifn C:/Designs/MG_MP/iup_1/nowy_gray/gray.xst -ofn C:/Designs/MG_MP/iup_1/nowy_gray/gray.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s
