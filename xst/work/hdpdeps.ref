@@ -1,0 +1,8 @@
+V3 8
+FL C:/Designs/MG_MP/iup_1/nowy_gray/gray.vhf 2018/03/02.11:21:55 K.39
+EN work/gray 1519986258 FL C:/Designs/MG_MP/iup_1/nowy_gray/gray.vhf \
+      PB ieee/std_logic_1164 1217055545 PH ieee/NUMERIC_STD 1217055545 LB UNISIM \
+      PH unisim/VCOMPONENTS 1217055545
+AR work/gray/BEHAVIORAL 1519986259 \
+      FL C:/Designs/MG_MP/iup_1/nowy_gray/gray.vhf EN work/gray 1519986258 CP OBUF \
+      CP INV CP IBUF CP FDC
