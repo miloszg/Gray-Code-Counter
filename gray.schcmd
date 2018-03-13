@@ -1,0 +1,5 @@
+select figure at 2050 972 16 -branches -sn=1
+select figure at 2042 964 16 -branches -sn=1
+select figure at 2050 972 16 -branches -all -sn=1
+select figure at 1997 1029 16 -branches -sn=1
+select figure at 2005 1037 16 -branches -all -sn=1

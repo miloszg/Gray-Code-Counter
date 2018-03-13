@@ -1,0 +1,12 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "C:/Designs/MG_MP/iup_1/nowy_gray/gray.sch" gray.vhf
+xst -ise "C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise" -intstyle ise -ifn "C:/Designs/MG_MP/iup_1/nowy_gray/gray.xst" -ofn "C:/Designs/MG_MP/iup_1/nowy_gray/gray.syr"
+ngdbuild -ise "C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "gray.ngc" gray.ngd
+map -ise "C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o gray_map.ncd gray.ngd gray.pcf
+par -ise "C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise" -w -intstyle ise -ol std -t 1 gray_map.ncd gray.ncd gray.pcf
+trce -ise "C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise" -intstyle ise -v 3 -s 4 -xml gray gray.ncd -o gray.twr gray.pcf -ucf ucf.ucf
+bitgen -ise "C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise" -intstyle ise -f gray.ut gray.ncd
+ngdbuild -ise "C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "gray.ngc" gray.ngd
+map -ise "C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o gray_map.ncd gray.ngd gray.pcf
+par -ise "C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise" -w -intstyle ise -ol std -t 1 gray_map.ncd gray.ncd gray.pcf
+trce -ise "C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise" -intstyle ise -v 3 -s 4 -xml gray gray.ncd -o gray.twr gray.pcf -ucf ucf.ucf
+bitgen -ise "C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise" -intstyle ise -f gray.ut gray.ncd

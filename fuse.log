@@ -1,0 +1,69 @@
+Running : C:\Xilinx\10.1\ISE\bin\nt\unwrapped\fuse.exe -ise
+C:/Designs/MG_MP/iup_1/nowy_gray/nowy_gray.ise -intstyle ise -incremental -o
+test_isim_beh.exe -prj test_beh.prj -top test
+Determining compilation order of HDL files
+Analyzing VHDL file gray.vhf
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/standard.vdb
+Restoring VHDL parse-tree ieee.numeric_std from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/numeric_std.vdb
+Restoring VHDL parse-tree unisim.vcomponents from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/unisim/unisim.vdbl
+Analyzing VHDL file test.vhw
+Restoring VHDL parse-tree ieee.std_logic_textio from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_textio.vdb
+Restoring VHDL parse-tree std.textio from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/textio.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_unsigned.vdb
+Saving VHDL parse-tree work.gray into
+c:/designs/mg_mp/iup_1/nowy_gray/isim/work/gray.vdb
+Saving VHDL parse-tree work.test into
+c:/designs/mg_mp/iup_1/nowy_gray/isim/work/test.vdb
+Starting static elaboration
+Restoring VHDL parse-tree unisim.obuf from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/unisim/unisim.vdbl
+WARNING:HDLCompiler:321 - "N:/K.39/rtf/vhdl/src/unisims/unisim_VITAL.vhd" Line
+   28430. Comparison between unequal length arrays always returns FALSE
+WARNING:HDLCompiler:321 - "N:/K.39/rtf/vhdl/src/unisims/unisim_VITAL.vhd" Line
+   28431. Comparison between unequal length arrays always returns FALSE
+Restoring VHDL parse-tree unisim.inv from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/unisim/unisim.vdbl
+Restoring VHDL parse-tree unisim.ibuf from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/unisim/unisim.vdbl
+Restoring VHDL parse-tree ieee.vital_timing from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/vital_timing.vdb
+WARNING:HDLCompiler:321 - "N:/K.39/rtf/vhdl/src/unisims/unisim_VITAL.vhd" Line
+   9742. Comparison between unequal length arrays always returns FALSE
+WARNING:HDLCompiler:321 - "N:/K.39/rtf/vhdl/src/unisims/unisim_VITAL.vhd" Line
+   9743. Comparison between unequal length arrays always returns FALSE
+Restoring VHDL parse-tree unisim.fdc from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/unisim/unisim.vdbl
+Completed static elaboration
+Fuse Memory Usage: 62428 Kb
+Fuse CPU Usage: 531 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package numeric_std from library ieee
+Using precompiled package textio from library std
+Using precompiled package std_logic_textio from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package vital_timing from library ieee
+Compiling package vcomponents
+Compiling architecture obuf_v of entity obuf
+[\OBUF("DONT_CARE",12,"DEFAULT","...]
+Compiling architecture inv_v of entity inv [inv_default]
+Compiling architecture ibuf_v of entity ibuf
+[\IBUF("DONT_CARE","0","AUTO","DE...]
+Compiling architecture fdc_v of entity fdc [\FDC('0')\]
+Compiling architecture behavioral of entity gray [gray_default]
+Compiling architecture testbench_arch of entity test
+Compiled 20 VHDL Units
+Built simulation executable test_isim_beh.exe
+Fuse Memory Usage: 63712 Kb
+Fuse CPU Usage: 561 ms
